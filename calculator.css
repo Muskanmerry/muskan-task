@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main{
+    border: 1px solid;
+    width: 600px;
+    height: auto;
+    /* padding: 10px; */
+}
+.close{
+    margin-left: 200px;
+    font-size: 10px;
+}
+.cake ul{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+.cake{
+    margin-left: 350px;
+}
+.search input{
+    width: 550px;
+    height: 50px;
+}
+.search .place::placeholder{
+    text-align: right;
+}
+.rups ul {
+    display: flex;
+    gap: 5px;
+    list-style: none; 
+    padding: 10px;
+}
+.rups ul button{
+    width: 70px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+}
+.cake1{
+    padding: 10px;
+    margin-left: 318px;
+}
+.enable{
+
+    margin-top: 5px;
+    margin-left: 6px;
+}
+.btn{
+    margin-left: 180px;
+}

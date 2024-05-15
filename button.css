@@ -1,0 +1,25 @@
+.toggle-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #f1c40f;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden; 
+}
+
+.toggle-circle {
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 15px; 
+    transform: translate(-50%, -50%); 
+    transition: transform 0.3s ease;
+}
+
+.toggle-switch.on .toggle-circle {
+    transform: translate(80%, -50%); 
+}
